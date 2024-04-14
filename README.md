@@ -6,7 +6,7 @@ Built with [Rust](https://www.rust-lang.org/) and [Macroquad](https://github.com
 ![screenshot](/screenshot.png)
 
 # Explaination & Timelapse Video
-[![youtube](https://img.youtube.com/vi/98pUSZAM_7M/0.jpg)](https://youtu.be/98pUSZAM_7M)
+[![youtube](https://img.youtube.com/vi/YPWy-3CTB-I/0.jpg)](https://youtu.be/YPWy-3CTB-I)
 
 # Controls
 - `Tab` - Enable/Disable visualization
@@ -34,7 +34,7 @@ Built with [Rust](https://www.rust-lang.org/) and [Macroquad](https://github.com
 - We update each game in a generation until all the games are complete.
 - At the end of each generation, each snake in a stream is ranked based on how it performed. 
 - Based on this ranking, parents are chosen for the next batch of snakes. Snake at rank 1 is more probable to be a parent compared to snake at rank 10.
-- Here's an example of how the population is distributed throughout every generation (these values can be configured from the config file):
+- Here's an example of how the population is distributed throughout every generation:
     1. Top 1% of the snakes are retained for next generation
     2. 50% of the population is newly generated using 2 snakes from the previous generation as their parents
     3. 20% of the snakes are freshly generated with no connection to the past generations
