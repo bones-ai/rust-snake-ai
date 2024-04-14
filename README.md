@@ -5,10 +5,12 @@ Built with [Rust](https://www.rust-lang.org/) and [Macroquad](https://github.com
 
 ![screenshot](/screenshot.png)
 
-# Showcase with timelapse
-
+# Explaination & Timelapse Video
 [![youtube](https://img.youtube.com/vi/98pUSZAM_7M/0.jpg)](https://youtu.be/98pUSZAM_7M)
 
+# Controls
+- `Tab` - Enable/Disable visualization
+- `Space` - Slow down the simulation
 
 ## Usage
 - Clone the repo
