@@ -1,5 +1,5 @@
 # AI learns to play Snake!
-This is an ant colony simulation, it internally uses kdtree and query caching, it's able to handle about 5k ants on the cpu.
+A neural network learns to play snakes
 
 Built with [Rust](https://www.rust-lang.org/) and [Macroquad](https://github.com/not-fl3/macroquad) game engine
 
